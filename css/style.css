@@ -1,0 +1,60 @@
+/* Basic CSS Properties */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Header Section CSS Styling */
+#header{
+    background-color:#8f8f8f;
+    padding:3% 7% 14%;
+    color:#fff;
+}
+
+.navigation-bar{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    text-align:right;
+    font-size:0.8em;
+}
+.navigation-items{
+    display:inline;
+    padding-left:0.7em;
+}
+.navigation-items:hover{
+    color:#000;
+    transition:0.2s;
+}
+
+/* Header Content Para Section */
+.header-content{
+    margin-top:2em;
+    text-align:center;
+}
+.header-content-title{
+    padding:2% 0;
+    font-size:2.5em;
+}
+.header-content-title,.header-content-para{
+    margin:0;
+}
+
+/* Header Section get Ends */
+
+/* Profile Section */
+
+.profile-pic{
+    display:block;  
+    margin:0 auto;
+    width:6rem;
+}
+
+/* Profile Content Paragraph */
+.profile-content{
+    width:20em;
+    margin:0 auto;
+    text-align: center;
+}
